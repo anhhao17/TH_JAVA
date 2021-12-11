@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static int bin2dec(long bin) {
+		int dec,i=0;
+		long remaind;
+		while(bin!=0) {
+			remaind=bin%10;
+			bin/=10;
+			dec+=remaind*Math.pow(2, i);
+			i++;
+		}
+		
+		
+		return dec;
+		
+	}
+	public static void main(String[] args) {
+		String bin;
+		long l_bin;
+		Scanner sc=new Scanner(System.in);
+		bin=sc.nextLine();
+		l_bin=Long.parseLong(bin);
+		
+		
+	}
+
+}

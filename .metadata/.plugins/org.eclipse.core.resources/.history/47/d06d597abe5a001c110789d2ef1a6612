@@ -1,0 +1,13 @@
+package bai3;
+
+public class bai4 {
+
+	public static void main(String[] args) {
+		int n=20;
+		int factorial=1;
+		int i=1;
+		
+
+	}
+
+}

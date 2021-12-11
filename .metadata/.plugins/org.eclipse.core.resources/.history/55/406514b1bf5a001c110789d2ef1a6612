@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class DoW {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String day;
+		System.out.println("Nhap ngay trong tuan 5-11/12/2021");
+		day=sc.nextLine();
+		switch (day) {
+		case "17/11/2000":
+			System.out.println("Thu 6");
+			break;
+		default:
+			System.out.println("Chu nhat");
+			break;
+		}
+	}
+
+}

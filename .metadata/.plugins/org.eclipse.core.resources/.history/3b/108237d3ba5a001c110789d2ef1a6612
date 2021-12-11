@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String bin;
+		long l_bin;
+		Scanner sc=new Scanner(System.in);
+		bin=sc.nextLine();
+		System.out.println(bin.length());
+	}
+
+}

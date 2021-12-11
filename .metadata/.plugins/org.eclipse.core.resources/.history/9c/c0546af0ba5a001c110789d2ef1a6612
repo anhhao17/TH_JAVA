@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static int bin2dec(long bin) {
+		
+	}
+	public static void main(String[] args) {
+		String bin;
+		long l_bin;
+		Scanner sc=new Scanner(System.in);
+		bin=sc.nextLine();
+		l_bin=Long.parseLong(bin);
+		
+		
+	}
+
+}

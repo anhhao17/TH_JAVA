@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class DoW {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String day;
+		System.out.println("Nhap ngay:");
+		day=sc.nextLine();
+	}
+
+}
